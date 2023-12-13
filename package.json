@@ -1,0 +1,38 @@
+{
+  "bugs": "",
+  "contributors": [],
+  "dependencies": {
+    "@alchemy/aa-accounts": "^1.2.1",
+    "@alchemy/aa-alchemy": "^1.2.1",
+    "@alchemy/aa-core": "^1.2.1",
+    "@alchemy/aa-signers": "^1.2.1",
+    "@web3auth/ethereum-provider": "^7.2.0",
+    "@web3auth/single-factor-auth": "^7.2.2",
+    "jsonwebtoken": "^9.0.2",
+    "viem": "^1.19.13"
+  },
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "keywords": [],
+  "license": "AGPL-version-3.0",
+  "main": "index.js",
+  "name": "alchemy-app",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "npx tsx index.ts",
+    "test": ""
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
